@@ -14,7 +14,6 @@ header {
     font-size: 16px;
     padding: 16px 10%;
     gap: 16px;
-    margin-bottom: 60px;
     background-color: #1F2937;
     color: #F9FAF8;
 }
@@ -25,4 +24,41 @@ header {
 
 .menu {
     margin-left: auto;
+}
+
+.first-section {
+    display: flex;
+    padding: 80px 10%;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    gap: 150px;
+}
+
+.first-section-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.first-section-title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.first-section-text {
+    font-size: 16px;
+}
+
+.first-section-button {
+    width: 120px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #3da9fc;
+    color: #fffffe;
+    border: none;
+}
+
+.first-section img {
+    height: 360px;
+    border-radius: 20px;
 }
