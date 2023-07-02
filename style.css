@@ -119,6 +119,11 @@ header {
     font-weight: bold;
 }
 
+.quote-author a {
+    color: black;
+    text-decoration: underline;
+}
+
 .fourth-section {
     margin: 100px 10%;
     background-color: #3da9fc;
